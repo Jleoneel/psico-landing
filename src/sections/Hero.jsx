@@ -1,6 +1,7 @@
 import { ArrowRight } from "lucide-react";
 import Button from "../components/ui/Button";
 import { getWhatsAppLink } from "../services/whatsapp";
+import fotoProfesional from "../assets/images/Foto.jpg";
 
 export default function Hero() {
   return (
@@ -31,8 +32,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-text-secondary text-base md:text-lg max-w-lg">
-            Neuropsicólogo clínico y psicoterapeuta especializado en adolescentes y adultos,
-            terapia ACT y psicología deportiva.
+            Neuropsicólogo clínico y psicoterapeuta especializado en
+            adolescentes y adultos, terapia ACT y psicología deportiva.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-2">
@@ -62,8 +63,8 @@ export default function Hero() {
             />
             {/* Placeholder de fotografía profesional */}
             <img
-              src="/src/assets/images/Foto.jpg"
-              alt="Foto profesional de Dr. Juan Pérez"
+              src={fotoProfesional}
+              alt="Foto profesional"
               className="w-full h-full object-cover rounded-[2.5rem] shadow-lg"
             />
           </div>

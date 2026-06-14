@@ -4,7 +4,7 @@ import { FAQS } from "../data/faq";
 
 export default function FAQ() {
   return (
-    <section id="faq" className="bg-surface py-16 md:py-24">
+    <section id="faq" className="bg-bg py-16 md:py-24">
       <div className="max-w-3xl mx-auto px-5 md:px-8 flex flex-col gap-12">
         <SectionHeading
           eyebrow="Preguntas frecuentes"

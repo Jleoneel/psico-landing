@@ -43,7 +43,7 @@ function ProcessStep({ step, index, isLast }) {
 
 export default function ProcessSteps() {
   return (
-    <section className="bg-bg py-16 md:py-24">
+    <section className="bg-surface py-16 md:py-24">
       <div className="max-w-7xl mx-auto px-5 md:px-8 flex flex-col gap-12">
         <SectionHeading
           eyebrow="Cómo funciona"

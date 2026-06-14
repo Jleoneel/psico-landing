@@ -9,6 +9,6 @@ export const WHATSAPP_DEFAULT_MESSAGE =
   "Hola, me gustaría agendar una consulta.";
 
 export const SOCIAL_LINKS = [
-  { label: "LinkedIn", href: "#" },
-  { label: "Instagram", href: "#" },
+  //{ label: "LinkedIn", href: "#" },
+  { label: "Instagram", href: "https://www.instagram.com/psic.jomer?igsh=eXhqbDdia2lxbmo3" },
 ];

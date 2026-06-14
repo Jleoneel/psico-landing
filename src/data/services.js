@@ -25,7 +25,7 @@ export const SERVICES = [
       "Trabajo con evidencia científica en cada etapa",
     ],
   },
-  {
+  /*{
     id: "trabajo-multidisciplinario",
     icon: Users,
     title: "Trabajo Multidisciplinario",
@@ -36,7 +36,7 @@ export const SERVICES = [
       "Enfoque integral para cada caso",
       "Atención centrada en la persona",
     ],
-  },
+  }, */
   {
     id: "psicologia-deportiva",
     icon: Trophy,

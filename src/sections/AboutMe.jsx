@@ -9,7 +9,7 @@ const ABOUT_BLOCKS = [
     id: "formacion",
     icon: GraduationCap,
     title: "Formación",
-    items: ["Psicólogo Deportivo", "Neuropsicólogo Clínico"],
+    items: ["Licenciado en Psicología", "Especialización en Psicología Deportiva", "Formación en Neuropsicología Clínica"],
   },
   {
     id: "certificaciones",
@@ -30,19 +30,19 @@ const ABOUT_BLOCKS = [
         icon: HeartPulse,
         title: "Psicoterapia",
         description:
-          "Acompañamiento clínico a adolescentes, adultos y deportistas con un enfoque profesional y cercano.",
+          "Intervenciones orientadas al bienestar emocional, la gestión del malestar psicológico y el desarrollo de habilidades para afrontar los desafíos de la vida cotidiana.",
       },
       {
         icon: BrainCircuit,
         title: "Rehabilitación Neuropsicológica",
         description:
-          "Intervenciones diseñadas para recuperar y potenciar funciones cognitivas de manera integral.",
+          "Evaluación e intervención de funciones cognitivas como atención, memoria y funciones ejecutivas, mediante estrategias basadas en evidencia científica.",
       },
       {
         icon: Trophy,
         title: "Entrenamiento Mental en Deportistas",
         description:
-          "Trabajo con estrategias mentales para mejorar concentración, motivación y rendimiento deportivo.",
+          "Preparación psicológica para optimizar concentración, confianza, manejo de la presión y rendimiento en contextos deportivos y competitivos.",
       },
     ],
   },

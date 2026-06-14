@@ -27,12 +27,14 @@ export default function Hero() {
           </span>
 
           <h1 className="font-display text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight text-text">
-            Recupera tu bienestar emocional con acompañamiento profesional
-            basado en evidencia científica.
+            Recupera tu bienestar emocional y desarrolla herramientas para
+            afrontar los desafíos de tu vida con mayor claridad y confianza.
           </h1>
 
           <p className="text-text-secondary text-base md:text-lg max-w-lg">
-            Neuropsicólogo Clínico y Psicoterapeuta certificado en ACT. Me especializo en la atención de adolescentes, adultos y deportistas en formación y profesionales.
+            Neuropsicólogo Clínico y Psicoterapeuta certificado en ACT. Me
+            especializo en la atención de adolescentes, adultos y deportistas en
+            formación y profesionales.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-2">

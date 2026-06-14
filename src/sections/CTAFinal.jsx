@@ -11,7 +11,9 @@ export default function CTAFinal() {
       />
       <div className="relative max-w-3xl mx-auto px-5 md:px-8 text-center flex flex-col items-center gap-6">
         <h2 className="font-display text-2xl md:text-4xl font-semibold text-white leading-tight">
-          Dar el primer paso también es parte del proceso.
+          No tienes que afrontar todo por tu cuenta. Dar el primer paso puede
+          ser difícil, pero buscar apoyo profesional puede marcar una diferencia
+          importante en tu bienestar emocional.{" "}
         </h2>
         <p className="text-white/80 text-base md:text-lg max-w-xl">
           Si sientes que es momento de cuidar tu bienestar emocional, escríbeme

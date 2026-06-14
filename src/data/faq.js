@@ -27,6 +27,6 @@ export const FAQS = [
     id: "pagos",
     question: "¿Qué formas de pago están disponibles?",
     answer:
-      "Los detalles sobre tarifas y formas de pago se conversan directamente al agendar tu consulta por WhatsApp.",
+      "Las formas de pago disponibles son Transferencia Bancaria y PayPal. Cada consulta se reserva mediante el pago anticipado del 50% del valor de la sesión. El valor correspondiente se informa al momento de contactarse por WhatsApp.",
   },
 ];

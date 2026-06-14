@@ -32,8 +32,7 @@ export default function Hero() {
           </h1>
 
           <p className="text-text-secondary text-base md:text-lg max-w-lg">
-            Neuropsicólogo clínico y psicoterapeuta especializado en
-            adolescentes y adultos, terapia ACT y psicología deportiva.
+            Neuropsicólogo Clínico y Psicoterapeuta certificado en ACT. Me especializo en la atención de adolescentes, adultos y deportistas en formación y profesionales.
           </p>
 
           <div className="flex flex-wrap gap-4 mt-2">

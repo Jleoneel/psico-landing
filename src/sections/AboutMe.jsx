@@ -1,4 +1,4 @@
-import { GraduationCap, Award, Briefcase, Compass } from "lucide-react";
+import { GraduationCap, Award, Briefcase, Compass, BrainCircuit, HeartPulse, Trophy } from "lucide-react";
 import SectionHeading from "../components/ui/SectionHeading";
 import Card from "../components/ui/Card";
 import Badge from "../components/ui/Badge";
@@ -9,19 +9,42 @@ const ABOUT_BLOCKS = [
     id: "formacion",
     icon: GraduationCap,
     title: "Formación",
-    items: ["Psicología Clínica", "Neuropsicología", "Terapia ACT"],
+    items: ["Psicólogo Deportivo", "Neuropsicólogo Clínico"],
   },
   {
     id: "certificaciones",
     icon: Award,
     title: "Certificaciones",
-    items: ["Terapia de Aceptación y Compromiso", "Psicología Deportiva", "Formación continua"],
+    items: [
+      "Psicólogo Deportivo CONMEBOL",
+      "Certificación en Terapia de Aceptación y Compromiso (ACT)",
+      "Rehabilitación Neuropsicológica",
+    ],
   },
   {
     id: "experiencia",
     icon: Briefcase,
     title: "Experiencia",
-    items: ["Atención a adultos profesionales", "Evaluación neuropsicológica", "Acompañamiento a deportistas"],
+    items: [
+      {
+        icon: HeartPulse,
+        title: "Psicoterapia",
+        description:
+          "Acompañamiento clínico a adolescentes, adultos y deportistas con un enfoque profesional y cercano.",
+      },
+      {
+        icon: BrainCircuit,
+        title: "Rehabilitación Neuropsicológica",
+        description:
+          "Intervenciones diseñadas para recuperar y potenciar funciones cognitivas de manera integral.",
+      },
+      {
+        icon: Trophy,
+        title: "Entrenamiento Mental en Deportistas",
+        description:
+          "Trabajo con estrategias mentales para mejorar concentración, motivación y rendimiento deportivo.",
+      },
+    ],
   },
   {
     id: "enfoque",
@@ -46,11 +69,32 @@ function AboutBlock({ block, index }) {
           <Icon size={24} aria-hidden="true" />
         </div>
         <h3 className="font-display text-lg font-semibold text-text">{block.title}</h3>
-        <div className="flex flex-wrap gap-2">
-          {block.items.map((item) => (
-            <Badge key={item}>{item}</Badge>
-          ))}
-        </div>
+        {block.id === "experiencia" ? (
+          <div className="grid gap-4">
+            {block.items.map((item) => {
+              const ItemIcon = item.icon;
+              return (
+                <div key={item.title} className="rounded-3xl border border-border bg-surface p-4">
+                  <div className="flex items-center gap-3">
+                    <div className="w-11 h-11 rounded-2xl bg-primary/10 flex items-center justify-center text-primary">
+                      <ItemIcon size={20} aria-hidden="true" />
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-text">{item.title}</h4>
+                    </div>
+                  </div>
+                  <p className="mt-3 text-sm leading-relaxed text-text-secondary">{item.description}</p>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="flex flex-wrap gap-2">
+            {block.items.map((item) => (
+              <Badge key={item}>{item}</Badge>
+            ))}
+          </div>
+        )}
       </Card>
     </div>
   );
@@ -63,7 +107,7 @@ export default function AboutMe() {
         <SectionHeading
           eyebrow="Sobre mí"
           title="Un enfoque profesional, cercano y basado en evidencia"
-          description="Mi formación combina neuropsicología clínica, psicoterapia contextual y psicología deportiva, siempre orientada a resultados sostenibles para adultos profesionales."
+          description="Neuropsicólogo Clínico y Psicoterapeuta certificado en ACT. Me especializo en la atención de adolescentes, adultos y deportistas en formación y profesionales."
           align="left"
         />
 

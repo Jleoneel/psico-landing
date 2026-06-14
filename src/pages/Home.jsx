@@ -15,7 +15,7 @@ export default function Home() {
       <Services />
       <AboutMe />
       <ProcessSteps />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FAQ />
       <CTAFinal />
     </>

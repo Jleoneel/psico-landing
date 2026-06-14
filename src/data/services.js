@@ -1,4 +1,4 @@
-import { Activity, BrainCircuit, Trophy } from "lucide-react";
+import { Activity, BrainCircuit, Trophy, Users } from "lucide-react";
 
 export const SERVICES = [
   {
@@ -21,8 +21,20 @@ export const SERVICES = [
       "Evaluación y rehabilitación de procesos cognitivos: atención, memoria, funciones ejecutivas y más.",
     benefits: [
       "Evaluación neuropsicológica completa",
-      "Informes clínicos detallados",
       "Planes de rehabilitación cognitiva",
+      "Trabajo con evidencia científica en cada etapa",
+    ],
+  },
+  {
+    id: "trabajo-multidisciplinario",
+    icon: Users,
+    title: "Trabajo Multidisciplinario",
+    description:
+      "Coordinación y colaboración con otros profesionales de la salud y áreas relacionadas para brindar una atención integral centrada en las necesidades del paciente.",
+    benefits: [
+      "Comunicación entre equipos clínicos",
+      "Enfoque integral para cada caso",
+      "Atención centrada en la persona",
     ],
   },
   {
